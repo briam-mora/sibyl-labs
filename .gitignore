@@ -1,0 +1,79 @@
+# OS-Specific Files (macOS)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Finder Thumbnails & External Disk Files
+._*
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Python Bytecode and Compiled Files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual Environment
+venv/
+.Python
+
+# Packaging & Distribution
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller (EXE Builder)
+*.manifest
+*.spec
+
+# Installer Logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test & Coverage Reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Django-Specific Files
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Environment Variables & Secret Keys
+.env
+*.env
+secrets.json
+
+# SQLite Database (if used)
+db.sqlite3
+
+# Static and Media Files (Use AWS S3 Instead)
+staticfiles/
+media/
+
+# Celery Task Scheduling
+celerybeat-schedule
+
+# AWS Key Pairs (Important!)
+*.pem
